@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 64.5%;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.page1 {
+    background: rgba(0, 0, 0, 0.8) url(./images/mainPage.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+h1 {
+    font-size: 4rem;
+    background-color: #7C7878;
+    display: inline-block;
+    color: #A0F462;
+    font-family: 'Silom';
+}
+
+.title {
+    position: relative;
+    top: 34rem;
+    left: 48.5rem;
+    transform: translateY(-50%);
+}
