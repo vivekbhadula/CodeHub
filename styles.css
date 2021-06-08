@@ -9,12 +9,15 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Page 1 */
+
 .logo img {
     position: absolute;
-    height: 6rem;
-    width: 10rem;
+    height: 7rem;
+    width: 12rem;
     top: 3rem;
     left: 7rem;
+    font-weight: bold;
 }
 
 .title {
@@ -26,7 +29,7 @@ html {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     background-color: #7C7878;
     display: inline-block;
     color: #A0F462;
@@ -35,6 +38,7 @@ h1 {
     top: 46%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    white-space: nowrap;
 }
 
 .btn {
@@ -43,7 +47,7 @@ h1 {
     font-family: 'Silom';
     border-radius: 2rem;
     position: absolute;
-    top: 55%;
+    top: 58%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     background-color: #A0F462;
@@ -78,6 +82,58 @@ h1 {
     color: white;
     left: 49vw;
     animation: jump 1.5s ease infinite;
+}
+
+/* Page 2 */
+
+.line-break {
+    width: 100%;
+    height: 5rem;
+}
+
+h2 {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Silom';
+}
+
+h3 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Silom';
+}
+
+.page2 {
+    display: flex;
+    margin: 10rem 7rem;
+    text-align: center;
+    height: 100%;
+}
+
+.page2 img {
+    height: 22rem;
+    width: 32rem;
+}
+
+p {
+    padding: 3rem 6rem;
+    font-size: 1.7rem;
+    font-family: 'Silom';
+    /* text-align: left; */
+}
+
+/* Page 3 */
+
+.page3 {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #333333;
+}
+
+.page3 h2 {
+    color: #A0F462;
+    padding: 7rem;
 }
 
 @media (max-width: 1140px) {
