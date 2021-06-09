@@ -194,4 +194,3 @@ footer {
 @keyframes rotate{
     from{ transform: rotate(-360deg); }
     to{ transform: rotate(360deg); }
-}
