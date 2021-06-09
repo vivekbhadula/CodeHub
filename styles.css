@@ -133,6 +133,7 @@ p {
 .page3 img {
     height: 20rem;
     width: 20rem;
+    animation: rotate 6s ease infinite;
 }
 
 .page3 p {
@@ -175,4 +176,9 @@ footer {
     100% {
         transform: translateY(0%);
     }
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
 }
