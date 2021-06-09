@@ -7,6 +7,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Silom';
 }
 
 /* Page 1 */
@@ -33,7 +34,6 @@ h1 {
     background-color: #7C7878;
     display: inline-block;
     color: #A0F462;
-    font-family: 'Silom';
     position: absolute;
     top: 46%;
     left: 50%;
@@ -94,13 +94,11 @@ h1 {
 h2 {
     font-size: 5rem;
     text-align: center;
-    font-family: 'Silom';
 }
 
 h3 {
     margin-top: 2rem;
     font-size: 2.5rem;
-    font-family: 'Silom';
 }
 
 .page2 {
@@ -118,15 +116,11 @@ h3 {
 p {
     padding: 3rem 6rem;
     font-size: 1.7rem;
-    font-family: 'Silom';
-    /* text-align: left; */
 }
 
 /* Page 3 */
 
 .page3 {
-    /* width: 100vw;
-    height: 100vh; */
     text-align: center;
     background-color: #333333;
 }
@@ -143,6 +137,7 @@ p {
 
 .page3 p {
     padding: 7rem;
+    color: white;
 }
 
 /* Footer */
@@ -154,6 +149,19 @@ footer {
 @media (max-width: 1140px) {
     * {
         font-size: 50%;
+    }
+}
+
+@media (max-width: 960px) {
+    * {
+        font-size: 50%;
+    }
+    .page2 {
+        flex-direction: column;
+    }
+    h1 {
+        /* white-space: normal; */
+        font-size: 3rem;
     }
 }
 
